@@ -1,0 +1,4 @@
+name: DynamicallyMotd
+version: '${project.version}'
+main: net.sleepyspeller.dynamicallymotd.DynamicallyMotd
+api-version: '1.20'

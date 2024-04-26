@@ -2,3 +2,12 @@ name: DynamicallyMotd
 version: '${project.version}'
 main: net.sleepyspeller.dynamicallymotd.DynamicallyMotd
 api-version: '1.20'
+commands:
+  dynamicallymotd:
+    description: Main command with interacting with the plugin through the game.
+    usage: /<command>
+
+permissions:
+  dynamicallymotd.admin:
+    description: Permission for using /dynamicallymotd
+    default: false

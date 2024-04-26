@@ -12,7 +12,6 @@ public class EventPlayerPing implements Listener {
         this.plugin = plugin;
     }
 
-
     @EventHandler
     public void onPlayerPing(ServerListPingEvent event) {
         ConfMgr config = new ConfMgr(plugin);

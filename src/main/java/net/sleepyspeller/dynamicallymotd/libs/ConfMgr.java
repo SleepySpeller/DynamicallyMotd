@@ -35,6 +35,10 @@ public class ConfMgr {
         }
 
         return getMotd(int_random);
+    }
+
+    //TODO
+    public void addMotd(String newMotd) {
 
     }
 }

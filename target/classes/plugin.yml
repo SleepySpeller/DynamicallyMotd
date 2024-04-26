@@ -1,4 +1,0 @@
-name: DynamicallyMotd
-version: '1.0'
-main: net.sleepyspeller.dynamicallymotd.DynamicallyMotd
-api-version: '1.20'

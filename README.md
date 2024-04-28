@@ -12,7 +12,7 @@ I recommend using [MCTools MOTD Creator](https://mctools.org/motd-creator) for c
 The plugin supports [Color and Format codes](https://www.digminecraft.com/lists/color_list_pc.php) which are already covered by [MCTools MOTD Creator](https://mctools.org/motd-creator).
 
 # Downloads
-You can download the [latest release for 1.20-1.20.5](https://github.com/SleepySpeller/DynamicallyMotd/releases/tag/1.20).<br>
+You can download the [latest release for 1.20-1.20.4](https://github.com/SleepySpeller/DynamicallyMotd/releases/tag/1.20).<br>
 I heavily recommend you use [Paper](https://papermc.io/downloads/paper) or any other fork of it as server software.
 
 # License

@@ -16,6 +16,10 @@ public class ConfMgr {
         return (ArrayList<String>) plugin.getConfig().getList("motds");
     }
 
+    public void setMotds(ArrayList<String> newList) {
+        plugin.getConfig().set("motds", newList);
+    }
+
     public String getMotd(int index) {
         try{
             return (String) plugin.getConfig().getList("motds").get(index);
@@ -37,8 +41,15 @@ public class ConfMgr {
         return getMotd(int_random);
     }
 
-    //TODO
     public void addMotd(String newMotd) {
+        if(newMotd.isEmpty()) {
+            return;
+        }
 
+        ArrayList<String> motds = getMotds();
+        motds.add(newMotd);
+
+        setMotds(motds);
+        plugin.saveConfig();
     }
 }

@@ -11,9 +11,8 @@ It takes the MOTD's directly from the plugin's config, which can be customized w
 I recommend using [MCTools MOTD Creator](https://mctools.org/motd-creator) for creating MOTD's. <br>
 The plugin supports [Color and Format codes](https://www.digminecraft.com/lists/color_list_pc.php) which are already covered by [MCTools MOTD Creator](https://mctools.org/motd-creator).
 
-# Downloads
-You can download the [latest release for 1.20-1.20.4](https://github.com/SleepySpeller/DynamicallyMotd/releases/tag/1.20).<br>
-I heavily recommend you use [Paper](https://papermc.io/downloads/paper) or any other fork of it as server software.
+# Installation and Setup
+See [INSTALL.md](https://github.com/SleepySpeller/DynamicallyMotd/blob/main/INSTALL.md) for full installation and setup instructions.
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/SleepySpeller/DynamicallyMotd/blob/main/LICENSE) file for details.

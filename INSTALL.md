@@ -2,14 +2,14 @@
 This guide will help you get DynamicallyMotd up and running in no time!<br>
 
 # Table of Contents
-1. [Getting Started](#Getting_Started)
-2. [Setting up the MOTD's](#Setting_up_the_MOTD's)<br>
-   2.1 [How the config works](##How_the_config_works)<br>
-   2.2 [Formatting and Coloring](##Formatting_and_Coloring)<br>
-3. [Commands](#Commands)
+1. [Getting Started](#getting-started)
+2. [Setting up the MOTD's](#setting-up-the-motds)<br>
+   2.1 [How the config works](#how-the-config-works)<br>
+   2.2 [Formatting and Coloring](#formatting-and-coloring)<br>
+3. [Commands](#commands)
 
 # Getting Started
-To kick things off, download the [latest release of the plugin](https://github.com/SleepySpeller/DynamicallyMotd/releases) and dragging it into your plugins folder.
+To kick things off, download the [latest release of the plugin](https://github.com/SleepySpeller/DynamicallyMotd/releases) and drag it into your plugins folder.
 <br>
 Then go ahead and start your server. If you see:<br>
 ``[DynamicallyMotd] Loaded successfully!``<br>

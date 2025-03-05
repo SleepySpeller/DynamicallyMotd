@@ -2,10 +2,10 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)<br>
 <br>Minecraft plugin for changing the server MOTD every time it gets pinged.
 
-**Currently support is only guaranteed on versions 1.20-1.20.4**
+**Currently support is only guaranteed on versions 1.20 - 1.21.4**
 
 # Functionality
-DynamicallyMotd is a lightweight Paper plugin which sends a random ***MOTD*** (**Message Of The Day**) every time it gets pinged.<br>
+DynamicallyMotd is a lightweight Spigot plugin which sends a random ***MOTD*** (**Message Of The Day**) every time it gets pinged.<br>
 It takes the MOTD's directly from the plugin's config, which can be customized with custom MOTD's and MOTD colors.
 
 I recommend using [MCTools MOTD Creator](https://mctools.org/motd-creator) for creating MOTD's. <br>

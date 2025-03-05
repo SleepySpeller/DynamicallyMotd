@@ -65,3 +65,4 @@ In order for the player to access the command, the player needs to have the perm
 Available commands:
 1. ``/dynamicallymotd reload`` - reads the ``config.yml`` and looks for new MOTD's. Use this if you've added new MOTD's and want them to get registered by the plugin without restarting the server.
 2. ``/dynamicallymotd add`` - ***This is still in an experimental state and can cause issues with formatting and coloring***. Used for adding new MOTD's through the game chat.
+3. ``/dynamicallymotd list <page>`` - lists existing MOTDs in the config. Each page contains 5 MOTDs, and are sorted the same way they are in the config.

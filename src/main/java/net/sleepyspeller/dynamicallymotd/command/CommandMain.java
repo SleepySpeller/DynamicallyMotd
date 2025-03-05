@@ -2,6 +2,7 @@ package net.sleepyspeller.dynamicallymotd.command;
 
 import net.sleepyspeller.dynamicallymotd.DynamicallyMotd;
 import net.sleepyspeller.dynamicallymotd.command.subcommandsMain.SubCommandAdd;
+import net.sleepyspeller.dynamicallymotd.command.subcommandsMain.SubCommandList;
 import net.sleepyspeller.dynamicallymotd.command.subcommandsMain.SubCommandReload;
 import net.sleepyspeller.dynamicallymotd.libs.SubCommand;
 import org.bukkit.command.Command;
@@ -37,6 +38,10 @@ public class CommandMain implements CommandExecutor {
             case "reload":
                 SubCommand subReload = new SubCommandReload(sender, command, s, args, plugin);
                 return subReload.run();
+
+            case "list":
+                SubCommand subList = new SubCommandList(sender, command, s, args, plugin);
+                return subList.run();
 
             default:
                 sender.sendMessage(defaultMessage);

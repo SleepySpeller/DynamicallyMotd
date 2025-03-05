@@ -11,7 +11,7 @@ import java.util.List;
 
 public class TabCompleterMain implements TabCompleter {
     private final DynamicallyMotd plugin;
-    private final String[] fillers = {"add", "reload"};
+    private final String[] fillers = {"add", "reload", "list"};
 
     public TabCompleterMain(DynamicallyMotd plugin) {
         this.plugin = plugin;
